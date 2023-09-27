@@ -1,0 +1,112 @@
+.nav{
+    width:90px;
+    height: 100vh;
+    flex-shrink: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: fixed; right: 0; top: 0;
+}
+
+.nav ion-icon{
+    scale: 1.3;
+}
+
+.nav .option{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav .option ion-icon{
+    margin-bottom:  40px;
+    color: #2B2B2B;
+    background-color: #F0F0F6;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .2s ;
+}
+
+.nav .option ion-icon:hover{
+    background-color: #FFB400;
+}
+
+@media screen and (max-width:360px) {
+    .nav{
+        width: 60px;
+    }
+
+    .nav ion-icon{
+        scale: 1;
+    }
+    
+}
+
+@media (min-width:361px) and (max-width:375px) {
+    .nav{
+        width: 60px;
+    }
+
+    .nav ion-icon{
+        scale: 1;
+    }
+    
+}
+
+@media (min-width:376px) and (max-width:390px) {
+    .nav{
+        width: 60px;
+    }
+
+    .nav ion-icon{
+        scale: 1;
+    }
+    
+}
+
+@media (min-width:411px) and (max-width:414px) {
+    .nav{
+        width: 60px;
+    }
+
+    .nav ion-icon{
+        scale: 1;
+    }
+    
+}
+
+@media (min-width:390px) and (max-width:412px) {
+    .nav{
+        width: 60px;
+    }
+
+    .nav ion-icon{
+        scale: 1;
+    }
+    
+}
+
+@media (min-width:415px) and (max-width:540px) {
+    .nav{
+        width: 75px;
+    }
+
+    .nav ion-icon{
+        scale: 1.2;
+    }
+    
+}
+@media (min-width:541px) and (max-width:768px) {
+    .nav{
+        width: 75px;
+    }
+
+    .nav ion-icon{
+        scale: 1.2;
+    }
+    
+}

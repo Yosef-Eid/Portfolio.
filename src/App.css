@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+  background: var(--Background, #F0F0F6);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#c3c3c3 ;
+  border-radius: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+}
+
+@media screen and (max-width:360px) {
+  .app{
+      align-items: start;  
+  }
+}
+
+@media (min-width:361) and (max-width:540px) {
+  .app{
+    width: 100%;
+      align-items: center;  
+  }
+}
