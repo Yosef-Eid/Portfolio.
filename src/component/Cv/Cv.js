@@ -94,7 +94,7 @@ const Cv = () => {
             </div>
             
             <hr/>
-                <a href=''><button>Download Cv</button></a>
+                {/* <a href=''><button>Download Cv</button></a> */}
         </div>
     );
 }

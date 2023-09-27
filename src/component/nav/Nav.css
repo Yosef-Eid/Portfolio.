@@ -1,10 +1,10 @@
 .nav{
     width:90px;
-    height: 100vh;
+    height: 100%;
     flex-shrink: 0;
     background-color: white;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: start;
     flex-direction: column;
     position: fixed; right: 0; top: 0;
@@ -38,10 +38,19 @@
 @media screen and (max-width:360px) {
     .nav{
         width: 60px;
+        padding-top: 25%;
+    }
+
+    .nav :first-child{
+        margin-top: 0px;
+    }
+    .nav :last-child{
+        margin-bottom: 60px;
     }
 
     .nav ion-icon{
         scale: 1;
+
     }
     
 }
@@ -49,8 +58,19 @@
 @media (min-width:361px) and (max-width:375px) {
     .nav{
         width: 60px;
+        padding-top: 25%;
+
     }
 
+    .nav :first-child{
+        margin-top: 0px;
+    }
+    .nav :last-child{
+        margin-bottom: 60px;
+    }
+
+
+    
     .nav ion-icon{
         scale: 1;
     }
@@ -60,7 +80,18 @@
 @media (min-width:376px) and (max-width:390px) {
     .nav{
         width: 60px;
+        padding-bottom: 100px;
+        padding-top: 25%;
+
     }
+
+    .nav :first-child{
+        margin-top: 0px;
+    }
+    .nav :last-child{
+        margin-bottom: 60px;
+    }
+
 
     .nav ion-icon{
         scale: 1;
@@ -71,7 +102,17 @@
 @media (min-width:411px) and (max-width:414px) {
     .nav{
         width: 60px;
+        padding-top: 25%;
+
     }
+
+    .nav :first-child{
+        margin-top: 0px;
+    }
+    .nav :last-child{
+        margin-bottom: 60px;
+    }
+
 
     .nav ion-icon{
         scale: 1;
@@ -82,6 +123,15 @@
 @media (min-width:390px) and (max-width:412px) {
     .nav{
         width: 60px;
+        padding-top: 25%;
+    }
+
+    .nav :first-child{
+        margin-top: 0px;
+    }
+
+    .nav :last-child{
+        margin-bottom: 60px;
     }
 
     .nav ion-icon{
@@ -93,7 +143,17 @@
 @media (min-width:415px) and (max-width:540px) {
     .nav{
         width: 75px;
+        padding-bottom: 100px;
+
     }
+
+    .nav :first-child{
+        margin-top: 0px;
+    }
+    .nav :last-child{
+        margin-bottom: 60px;
+    }
+
 
     .nav ion-icon{
         scale: 1.2;

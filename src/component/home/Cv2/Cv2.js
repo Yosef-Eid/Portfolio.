@@ -95,7 +95,7 @@ const Cv2 = () => {
             
             <hr/>
 
-            <button>Download Cv</button>
+            {/* <button>Download Cv</button> */}
         </div>
     );
 }
