@@ -116,6 +116,12 @@
 .works .card .imgWork10{
     background-image:url('./img-my-works/filter.png');
 }
+.works .card .imgWork11{
+    background-image:url('./img-my-works/api.png');
+}
+.works .card .imgWork12{
+    background-image:url('./img-my-works/Calculator.png');
+}
 
 
 .works .card .imgWork:hover{
@@ -283,10 +289,6 @@
         margin-left: -35px;
     }
 
-    .works .cards{
-
-    
-    }
     .cards::-webkit-scrollbar{
 
         height: 5px;

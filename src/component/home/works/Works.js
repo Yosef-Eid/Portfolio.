@@ -63,7 +63,7 @@ const Works = () => {
                         </div>
                         <div className='bottom'>
                             <a href='https://github.com/Yosef-Eid/Todo-List'>Vew Code {'>'} </a>
-                            <a href=''><button>Live Preview</button></a>
+                            <a href='https://todo-list000.netlify.app'><button>Live Preview</button></a>
                         </div>
                     </div>
                     <div className='card'>
@@ -194,6 +194,42 @@ const Works = () => {
                         <div className='bottom'>
                             <a href='https://github.com/Yosef-Eid/Filter-Projects'>Vew Code {'>'} </a>
                             <a href='https://yosef-eid.github.io/Filter-Projects/'><button>Live Preview</button></a>
+                        </div>
+                    </div>
+                    <div className='card'>
+                    <div className='Skills-used'>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                            <ion-icon name="logo-javascript"></ion-icon>
+                        </div>
+                        <div style={{width:'100%', height:'300px', overflow:'hidden'}}>
+                        <div className=' imgWork imgWork11'></div>
+                        </div>
+                        <div className='address'>
+                        <h3 className='title'>Fetch <span>API</span></h3>
+                        <p>Project fetch API data by reply</p>
+                        </div>
+                        <div className='bottom'>
+                            <a href='https://github.com/Yosef-Eid/fetch_API'>Vew Code {'>'} </a>
+                            <a href='https://fetch-api0.netlify.app'><button>Live Preview</button></a>
+                        </div>
+                    </div>
+                    <div className='card'>
+                    <div className='Skills-used'>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                            <ion-icon name="logo-javascript"></ion-icon>
+                        </div>
+                        <div style={{width:'100%', height:'300px', overflow:'hidden'}}>
+                        <div className=' imgWork imgWork12'></div>
+                        </div>
+                        <div className='address'>
+                        <h3 className='title'>Calc <span>ulator</span></h3>
+                        <p>Calculator using react</p>
+                        </div>
+                        <div className='bottom'>
+                            <a href='https://github.com/Yosef-Eid/Calculator-react'>Vew Code {'>'} </a>
+                            <a href='https://calculator0r.netlify.app'><button>Live Preview</button></a>
                         </div>
                     </div>
                 </div>
