@@ -201,6 +201,8 @@ const Works = () => {
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-react"></ion-icon>
+                            <ion-icon name="logo-bootstrap"></ion-icon>
                         </div>
                         <div style={{width:'100%', height:'300px', overflow:'hidden'}}>
                         <div className=' imgWork imgWork11'></div>
@@ -219,12 +221,13 @@ const Works = () => {
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>
                             <ion-icon name="logo-javascript"></ion-icon>
+                            <ion-icon name="logo-react"></ion-icon>
                         </div>
                         <div style={{width:'100%', height:'300px', overflow:'hidden'}}>
                         <div className=' imgWork imgWork12'></div>
                         </div>
                         <div className='address'>
-                        <h3 className='title'>Calc <span>ulator</span></h3>
+                        <h3 className='title'>Calc<span>ulator</span></h3>
                         <p>Calculator using react</p>
                         </div>
                         <div className='bottom'>
