@@ -11,7 +11,7 @@ const Cv = () => {
                 <div className='icons'>
                     <a href='https://www.facebook.com/profile.php?id=100079286477497&locale=ar_AR' title='facebook'><ion-icon name="logo-facebook"></ion-icon></a>
                     <a href='https://www.linkedin.com/in/yousef-eid-080b75290/' title='linkedin'><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href='https://api.whatsapp.com/send?phone=01155975885' title='whatsapp'><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href='https://api.whatsapp.com/send?phone=01155975886' title='whatsapp'><ion-icon name="logo-whatsapp"></ion-icon></a>
                     <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox' title='Email'><ion-icon name="mail-outline"></ion-icon></a>
                     <a href='https://t.me/Yousef_Eid2' title='Telegram'><ion-icon name="send"></ion-icon></a>
                 </div>

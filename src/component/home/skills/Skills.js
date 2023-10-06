@@ -12,6 +12,8 @@ import vsCode  from "./icons/visual-studio.svg";
 import terminal  from "./icons/terminal-1.svg";
 import figma  from "./icons/figma_logo.svg";
 import notion  from "./icons/notion.svg";
+import mui  from "./icons/material-ui-1.svg";
+import fir  from "./icons/firebase-1.svg";
 
 const Skills = () => {
     return (
@@ -26,6 +28,7 @@ const Skills = () => {
                 <img title='CSS' src={css}/>
                 <img title='Javascript' src={js}/>
                 <img title='React.js' src={react}/>
+                <img title='Material MUI' src={mui}/>
                 <img title='Redux' src={redux}/>
                 <img title='Bootstrap' src={bootstrap}/>
                 <img title='Git' src={git}/>
@@ -33,6 +36,7 @@ const Skills = () => {
                 <img title='Figma' src={figma} id='fig'/>
                 <img title='Vs Code' src={vsCode}/>
                 <img title='Notion' src={notion}/>
+                <img title='Firebase' src={fir}/>
                 <img title='Terminal' src={terminal}/>
             </div>
         </div>
