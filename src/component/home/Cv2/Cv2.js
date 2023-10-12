@@ -11,8 +11,8 @@ const Cv2 = () => {
                 <div className='icons'>
                     <a href='https://www.facebook.com/profile.php?id=100079286477497&locale=ar_AR' title='facebook'><ion-icon name="logo-facebook"></ion-icon></a>
                     <a href='https://www.linkedin.com/in/yousef-eid-080b75290/' title='linkedin'><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href='https://api.whatsapp.com/send?phone=01155975886' title='whatsapp'><ion-icon name="logo-whatsapp"></ion-icon></a>
-                    <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox' title='Email'><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href="https://wa.me/+201155975886" title='whatsapp'><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="mailto:yosefeid@gmail.com" title='Email'><ion-icon name="mail-outline"></ion-icon></a>
                     <a href='' title='Telegram'><ion-icon name="send"></ion-icon></a>
                 </div>
             </div>
@@ -45,6 +45,10 @@ const Cv2 = () => {
                 <div className='lang'>
                     <div className='name'><p>React.js</p> <p>65%</p></div>
                     <div className='value'><p style={{width:'65%'}}></p></div>
+                </div>
+                <div className='lang'>
+                    <div className='name'><p>material MUI</p> <p>55%</p></div>
+                    <div className='value'><p style={{width:'55%'}}></p></div>
                 </div>
                 <div className='lang'>
                     <div className='name'><p>Redux</p> <p>50%</p></div>
