@@ -11,6 +11,25 @@ const Works = () => {
 
                 <div className='cards'>
                 <div className='card'>
+                    <div className='Skills-used'>
+                            <ion-icon name="logo-html5"></ion-icon>
+                            <ion-icon name="logo-css3"></ion-icon>
+                            <ion-icon name="logo-javascript"></ion-icon>
+                            {/* <ion-icon name="logo-react"></ion-icon> */}
+                        </div>
+                        <div style={{width:'100%', height:'300px', overflow:'hidden'}}>
+                        <div className=' imgWork imgWork13'></div>
+                        </div>
+                        <div className='address'>
+                        <h3 className='title'>Note<span> My</span></h3>
+                        <p>Calculator using react</p>
+                        </div>
+                        <div className='bottom'>
+                            <a href='/'>Vew Code {'>'} </a>
+                            <a href='https://note-me00.netlify.app/'><button>Live Preview</button></a>
+                        </div>
+                    </div>
+                    <div className='card'>
                         <div className='Skills-used'>
                             <ion-icon name="logo-html5"></ion-icon>
                             <ion-icon name="logo-css3"></ion-icon>

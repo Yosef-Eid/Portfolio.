@@ -122,6 +122,9 @@
 .works .card .imgWork12{
     background-image:url('./img-my-works/Calculator.png');
 }
+.works .card .imgWork13{
+    background-image:url('./img-my-works/note.png');
+}
 
 
 .works .card .imgWork:hover{
